@@ -1,0 +1,44 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="card">
+                    <div class="card-header card-header-danger">
+                        <h4 class="card-title ">Despesas</h4>
+                        <p class="card-category"> Lista de despesas</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" text-primary">
+                                    <th>ID</th>
+                                    <th>Titulo</th>
+                                    <th>Categoria</th>
+                                    <th>Valor</th>
+                                    <th>Data da despesa</th>
+                                    <th>Ações</th>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let expense of expenses">
+                                        <td>{{expense.id}}</td>
+                                        <td>{{expense.title}}</td>
+                                        <td>{{expense.category.name}}</td>
+                                        <td>{{expense.totalValue}}</td>
+                                        <td>{{expense.createdDate}}</td>
+                                        <td>
+                                            <button mat-button type="button" class="btn btn-primary pull-center" (click)="openDialog(expense)"><i class="fa fa-edit"></i></button>
+                                            <button mat-button type="button" class="btn btn-primary pull-center" (click)="openDialogDeleteCategory(expense)"><i class="fa fa-trash"></i></button>
+                                        </td>
+                                    </tr>                                    
+                                </tbody>
+                            </table>
+                            <button mat-raised-button type="button" class="btn btn-danger pull-right" (click)="openDialogNewCategory()">Nova Despesa</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+  </div>
+  
