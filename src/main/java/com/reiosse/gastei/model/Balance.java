@@ -1,8 +1,10 @@
 package com.reiosse.gastei.model;
 
-import java.io.Serializable;
-import javax.persistence.Column;
+import java.time.Month;
+import java.time.Year;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import lombok.AllArgsConstructor;
@@ -15,13 +17,14 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
-public class Category implements Serializable {
-
+public class Balance {
   @Id
   @GeneratedValue
   private Long id;
-  @Column(unique = true, nullable = false)
-  private String name;
-  @Column(nullable = false)
-  private CategoryType type;
+  private Double expenseAmount;
+  private Double incomeAmount;
+  private Double previousBalance;
+  @Enumerated(EnumType.STRING)
+  private Month month;
+  private Integer year;
 }

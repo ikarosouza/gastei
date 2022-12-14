@@ -2,20 +2,33 @@
 
 ![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-dashboard-angular/material-dashboard-angular.gif)
 
-**[Material Dashboard Angular](https://www.creative-tim.com/product/material-dashboard-angular2/)** is a free Material Bootstrap Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material Dashboard was built over the popular Bootstrap framework and it comes with a couple of third-party plugins redesigned to fit in with the rest of the elements.
+**[Material Dashboard Angular](https://www.creative-tim.com/product/material-dashboard-angular2/)** is a free Material
+Bootstrap Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take
+on the material concepts through an easy to use and beautiful set of components. Material Dashboard was built over the
+popular Bootstrap framework and it comes with a couple of third-party plugins redesigned to fit in with the rest of the
+elements.
 
-Material Dashboard makes use of light, surface and movement. The general layout resembles sheets of paper following multiple different layers, so that the depth and order is obvious. The navigation stays mainly on the left sidebar and the content is on the right inside the main panel.
+Material Dashboard makes use of light, surface and movement. The general layout resembles sheets of paper following
+multiple different layers, so that the depth and order is obvious. The navigation stays mainly on the left sidebar and
+the content is on the right inside the main panel.
 
-This product came as a result of users asking for a material dashboard after we released our successful [Material Kit](http://www.creative-tim.com/product/material-kit). We developed it based on your feedback and it is a powerful bootstrap admin dashboard, which allows you to build products like admin panels, content managements systems and CRMs.
+This product came as a result of users asking for a material dashboard after we released our
+successful [Material Kit](http://www.creative-tim.com/product/material-kit). We developed it based on your feedback and
+it is a powerful bootstrap admin dashboard, which allows you to build products like admin panels, content managements
+systems and CRMs.
 
-Material Dashboard comes with 5 color filter choices for both the sidebar and the card headers (blue, green, orange, red and purple) and an option to have a background image on the sidebar.
+Material Dashboard comes with 5 color filter choices for both the sidebar and the card headers (blue, green, orange, red
+and purple) and an option to have a background image on the sidebar.
 
-Material Dashboard uses a framework built by our friend [Federico - Bootstrap Material Design](http://fezvrasta.github.io/bootstrap-material-design/), who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the effort and forward thinking they put into it.
+Material Dashboard uses a framework built by our
+friend [Federico - Bootstrap Material Design](http://fezvrasta.github.io/bootstrap-material-design/), who did an amazing
+job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the
+effort and forward thinking they put into it.
 
 Special thanks go to:
 [Robert McIntosh](https://github.com/mouse0270/bootstrap-notify) for the notification system.
-[Chartist](https://gionkunz.github.io/chartist-js/) for the wonderful charts.
-We are very excited to share this dashboard with you and we look forward to hearing your feedback!
+[Chartist](https://gionkunz.github.io/chartist-js/) for the wonderful charts. We are very excited to share this
+dashboard with you and we look forward to hearing your feedback!
 
 You can find the Github Repo here.
 
@@ -32,7 +45,6 @@ You can find the Github Repo here.
 * [Technical Support or Questions](#technical-support-or-questions)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
-
 
 ## Versions
 
@@ -69,9 +81,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. Go to your file project
 4. Make sure you have installed [Angular CLI](https://github.com/angular/angular-cli) already. If not, please install.
 5. Run in terminal: ```npm install```
-6. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+6. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you
+   change any of the source files.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out
+the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ### What's included
 
@@ -191,9 +205,8 @@ At present, we officially aim to support the last two versions of the following 
 
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
-
-
 ## Resources
+
 - Demo: <https://demos.creative-tim.com/material-dashboard-angular2/#/dashboard>
 - Download Page: <https://www.creative-tim.com/product/material-dashboard-angular2>
 - Documentation: <https://demos.creative-tim.com/material-dashboard-angular2/#/documentation/tutorial>
@@ -204,25 +217,24 @@ At present, we officially aim to support the last two versions of the following 
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the Material Dashboard. Here are some advices for our users that want to report an issue:
+We use GitHub Issues as the official bug tracker for the Material Dashboard. Here are some advices for our users that
+want to report an issue:
 
-1. Make sure that you are using the latest version of the Material Dashboard. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
+1. Make sure that you are using the latest version of the Material Dashboard. Check the CHANGELOG from your dashboard on
+   our [website](https://www.creative-tim.com/).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
-
 ## Technical Support or Questions
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us) instead of opening an issue.
-
-
+If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us)
+instead of opening an issue.
 
 ## Licensing
 
 - Copyright 2018 Creative Tim (https://www.creative-tim.com/)
 
 - Licensed under MIT (https://github.com/creativetimofficial/material-dashboard-angular2/blob/master/LICENSE.md)
-
 
 ## Useful Links
 

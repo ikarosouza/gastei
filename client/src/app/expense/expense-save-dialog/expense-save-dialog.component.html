@@ -1,8 +1,8 @@
 <h2 mat-dialog-title>{{ title }}</h2>
 <mat-dialog-content class="mat-typography">
-  <app-expense-form [expense]="expense"></app-expense-form>
+    <app-expense-form [expense]="expense"></app-expense-form>
 </mat-dialog-content>
 <mat-dialog-actions>
-  <button mat-button mat-dialog-close>Cancelar</button>
-  <button mat-button [mat-dialog-close]="expense" (click)="save()" cdkFocusInitial>Salvar</button>
+    <button mat-button mat-dialog-close>Cancelar</button>
+    <button (click)="save()" [mat-dialog-close]="expense" cdkFocusInitial mat-button>Salvar</button>
 </mat-dialog-actions>

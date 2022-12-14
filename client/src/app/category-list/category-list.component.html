@@ -11,28 +11,33 @@
                         <div class="table-responsive">
                             <table class="table">
                                 <thead class=" text-primary">
-                                    <th>ID</th>
-                                    <th>Name</th>
-                                    <th>Actions</th>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Actions</th>
                                 </thead>
                                 <tbody>
-                                    <tr *ngFor="let category of categories">
-                                        <td>{{category.id}}</td>
-                                        <td class="name">{{category.name}}</td>
-                                        <td>
-                                            <button mat-button type="button" class="btn btn-primary pull-center" (click)="openDialog(category)"><i class="fa fa-edit"></i></button>
-                                            <button mat-button type="button" class="btn btn-primary pull-center" (click)="openDialogDeleteCategory(category)"><i class="fa fa-trash"></i></button>
-                                        </td>
-                                    </tr>                                    
+                                <tr *ngFor="let category of categories">
+                                    <td>{{category.id}}</td>
+                                    <td class="name">{{category.name}}</td>
+                                    <td>
+                                        <button (click)="openDialog(category)" class="btn btn-primary pull-center" mat-button
+                                                type="button"><i class="fa fa-edit"></i></button>
+                                        <button (click)="openDialogDeleteCategory(category)" class="btn btn-primary pull-center" mat-button
+                                                type="button"><i class="fa fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
                                 </tbody>
                             </table>
-                            <button mat-raised-button type="button" class="btn btn-danger pull-right" (click)="openDialogNewCategory()">Nova Categoria</button>
+                            <button (click)="openDialogNewCategory()" class="btn btn-danger pull-right" mat-raised-button
+                                    type="button">Nova Categoria
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
-  </div>
+</div>
   

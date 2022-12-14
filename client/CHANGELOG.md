@@ -1,18 +1,24 @@
 ## [2.5.0] - 2020-10-07
+
 ### Updates
+
 - update to Angular 10
 - update all dependencies to match Angular 10 version
 
-
 ## [2.4.0] - 2020-03-05
+
 ### Updates
+
 - update to Angular 9
 - update all dependencies to match Angular 9 version
 
 ## [2.3.0] - 2019-06-11
+
 ### Updates
+
 - update to Angular 8
 - update all dependencies to match Angular 8 version
+
 ```
 @agm/core                           1.0.0-beta.5   →   1.0.0-beta.6
 @angular/animations                        7.0.2   →          8.0.0
@@ -63,39 +69,55 @@ ts-node                                    5.0.1   →          8.2.0
 tslint                                     5.9.1   →         5.17.0
 typescript                                 3.1.6   →          3.4.5
 ```
+
 ### Bug fixing
+
 - browser console error
+
 ```
 href="#pablo" -> href="javascript:void(0)"
 href="#"      -> href="javascript:void(0)"
 ```
+
 - form-validation error from the `_forms.scss` file
+
 ```
 @include form-validation-state("valid", $label-color); -> @include form-validation-state("valid", $label-color, $form-feedback-icon-valid);
 ```
+
 - added hash for google url validation
 
 ## [2.2.0] - 2018-11-14
+
 ### Changes
+
 - update to Angular 7
 - update all dependencies to match Angular 7 version
 
 ## [2.1.1] - 2018-05-23
+
 ### Fixes
+
 - changed some links
 
 ## [2.1.0] - 2018-04-27
+
 ### Fixes
+
 - changed file structure
 - moved documentation online
 
 ## [2.0.0] - 2018-04-20
+
 ### Fixes
+
 - added bootstrap 4
 - added angular 5
 
 ## [1.4.2] - 2017-10-01
+
 ### Fixes
+
 - added Perfect Scrollbar
 - added scrollTop on route change
 - added closeSidebar on mobile
@@ -104,31 +126,42 @@ href="#"      -> href="javascript:void(0)"
 - update package dependencies to 4.4.4
 
 ## [1.4.1] - 2017-09-19
+
 ### Material
+
 - added material.init()
 - fixed input float problem
 - fixed checkboxes in tabs
 
 ## [1.4.0] - 2017-08-23
+
 ### Changes for Angular 4
+
 - added angular-cli
 - update to Angular 4
 
 ## [v1.3.0] 2017-08-23
+
 ### skipped for sync with Angular 4 version convention
 
 ## [1.2.0] - 2017-04-05
+
 ### Added
+
 - added Upgrade to PRO page
 - update package
 - made sidebar dynamic
 
 ## [1.1.1] - 2017-03-21
+
 ### Added
+
 - added "@types/core-js": "0.9.35" in package
 
 ## [1.1.0] - 2017-03-20
+
 ### small fix
 
 ## [1.0.0] - 2017-01-30
+
 ### initial Release

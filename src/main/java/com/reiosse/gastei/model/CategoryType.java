@@ -6,12 +6,9 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum Periodicity {
-  PONTUAL(1, "Pontual"),
-  MENSAL(2, "Mensal"),
-  TRIMESTRAL(3, "Trimestral"),
-  SEMESTRAL(4, "Semestral"),
-  ANUAL(5, "Anual");
+public enum CategoryType {
+  EXPENSE(1, "Despesa"),
+  INCOME(2, "Renda");
 
   @Id
   private final int id;

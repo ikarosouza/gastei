@@ -1,7 +1,8 @@
 package com.reiosse.gastei.controller;
 
-import com.reiosse.gastei.model.Category;
-import com.reiosse.gastei.service.CategoryService;
+import com.reiosse.gastei.dto.ExpenseDTO;
+import com.reiosse.gastei.model.Expense;
+import com.reiosse.gastei.service.ExpenseService;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -15,31 +16,31 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(path = "/category")
+@RequestMapping(path = "/expense")
 @CrossOrigin(origins = "http://localhost:4200")
 @AllArgsConstructor
-public class CategoryController {
+public class ExpenseController {
 
-  private CategoryService categoryService;
+  private final ExpenseService expenseService;
 
   @GetMapping("/{id}")
-  public Category getById(@PathVariable("id") long id) {
-    return categoryService.getById(id);
+  public Expense getById(@PathVariable("id") long id) {
+    return expenseService.getById(id);
   }
 
   @RequestMapping("/all")
-  public List<Category> getAll() {
-    return categoryService.getAll();
+  public List<Expense> getAll() {
+    return expenseService.getAll();
   }
 
   @PostMapping
-  public ResponseEntity<Category> save(@RequestBody Category category) {
-    return ResponseEntity.ok(categoryService.save(category));
+  public ResponseEntity<Expense> save(@RequestBody ExpenseDTO expense) {
+    return ResponseEntity.ok(expenseService.saveExpense(expense));
   }
 
   @DeleteMapping("/delete/{id}")
-  public ResponseEntity<Long> delete(@PathVariable("id") Long categoryId) {
-    categoryService.delete(categoryId);
-    return ResponseEntity.ok(categoryId);
+  public ResponseEntity<Long> delete(@PathVariable("id") Long expenseId) {
+    expenseService.delete(expenseId);
+    return ResponseEntity.ok(expenseId);
   }
 }

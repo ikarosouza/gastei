@@ -1,24 +1,25 @@
 <form>
-    <mat-form-field appearance="outline" [floatLabel]="always">        
+    <mat-form-field [floatLabel]="always" appearance="outline">
         <mat-label>Titulo</mat-label>
-        <input matInput placeholder="Titulo" [(ngModel)]="expense.title" name="title">
+        <input [(ngModel)]="expense.title" matInput name="title" placeholder="Titulo">
     </mat-form-field>
     <mat-form-field appearance="outline">
         <mat-label>Descrição</mat-label>
-        <textarea matInput placeholder="Descrição" [(ngModel)]="expense.descpription" name="descpription"></textarea>        
+        <textarea [(ngModel)]="expense.descpription" matInput name="descpription" placeholder="Descrição"></textarea>
     </mat-form-field>
 
     <mat-form-field appearance="outline">
         <mat-label>Categoria</mat-label>
         <mat-select [(ngModel)]="expense.category" name="expense.category">
-          <mat-option *ngFor="let category of categories" [(value)]="expense.category">{{ category.name }}</mat-option>
+            <mat-option *ngFor="let category of categories" [(value)]="expense.category">{{ category.name }}
+            </mat-option>
         </mat-select>
     </mat-form-field>
 
     <mat-form-field appearance="outline">
         <mat-label>Valor</mat-label>
-        <input matInput placeholder="Valor" [(ngModel)]="expense.totalValue" name="totalValue">
+        <input [(ngModel)]="expense.totalValue" matInput name="totalValue" placeholder="Valor">
     </mat-form-field>
 
-    <mat-checkbox class="example-margin" [(value)]="isRecurrent" name="isRecurrent">Despesa recorrente</mat-checkbox>
+    <mat-checkbox [(value)]="isRecurrent" class="example-margin" name="isRecurrent">Despesa recorrente</mat-checkbox>
 </form>
